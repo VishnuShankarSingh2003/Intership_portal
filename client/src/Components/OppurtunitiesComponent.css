@@ -1,0 +1,68 @@
+/* Styling for the overall component */
+.oppurtunities-container {
+    background: #fff; /* Solid background color */
+    border-radius: 20px; /* Slightly larger radius for more rounded corners */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Deeper shadow for more depth */
+    padding: 40px; /* Increased padding for a more spacious layout */
+    width: 100%;
+    max-width: 800px; /* Increased max-width for a larger content area */
+    margin: 20px auto; /* Centered horizontally with automatic margin */
+    text-align: center; /* Center-aligns text */
+    border: 1px solid #e0e0e0; /* Subtle border for added definition */
+    background: linear-gradient(135deg, #ffffff, #f7f7f7); /* Subtle gradient background */
+}
+  
+  .oppurtunities-title {
+    text-align: center;
+    text-decoration: underline; /* Adds an underline to the text */
+    font-size: 2em; /* Increases the font size */
+    color: tomato; /* Changes the text color */
+    font-family: 'Arial', sans-serif; /* Sets a specific font family */
+    margin-bottom: 20px;
+}
+
+  
+  /* Styling for the opportunity cards */
+  .oppurtunity-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .oppurtunity-card h1 {
+    font-size: 30px;
+    margin: 0 0 10px;
+  }
+  
+  .oppurtunity-card p {
+    margin: 5px 0;
+  }
+  
+  .oppurtunity-card p strong {
+    color: #333;
+  }
+  
+  .oppurtunity-card button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    background-color: tomato;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .oppurtunity-card button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .oppurtunity-card button:hover:not(:disabled) {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+  }
+  

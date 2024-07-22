@@ -1,0 +1,44 @@
+.navbar {
+    background-color: tomato; /* Background color of the navbar */
+    padding: 15px 30px; /* Increased padding for a more spacious look */
+    display: flex;
+    justify-content: space-between; /* Aligns title and menu items at the ends */
+    align-items: center; /* Centers items vertically */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    border-radius: 15px;
+}
+
+.navbar-title {
+    color: #fff;
+    font-size: 24px; /* Larger font size for the title */
+    margin: 0;
+    font-weight: bold; /* Makes the title bold */
+}
+
+.navbar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-item {
+    margin-left: 25px; /* Increased margin for better spacing */
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px; /* Slightly larger font size for better readability */
+    font-weight: 500; /* Medium weight for the links */
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+
+
+
